@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-light-purple: #eee5ff;
+  --primary-purple: #c4a2f6;
+  --primary-darker-purple: #7541c8;
+  --nutural-white: #ffffff;
+  --nutural-light-grey: #e7eaee;
+  --nutural-light-grey-two: #cfcfcf;
+  --nutural-grey: #676d7e;
+  --nutural-darker-grey: #48556a;
+  --nutural-dark-blue: #19212e;
+  --nutural-black: #121212;
+  --font-size: 13px;
+  --font-family: "Barlow Semi Condensed";
+}
+body {
+  min-height: 100svh;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  height: 100svh;
+  width: 100svw;
+  gap: 1rem;
+  /*prettier-ignore*/
+  grid-template-areas:
+    "Daniel Daniel Jonathan Kira"
+    "Jeanette Patrick Patrick Kira";
+}
+p {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+.Daniel {
+  grid-area: Daniel;
+  background-color: var(--primary-darker-purple);
+}
+.Jonathan {
+  grid-area: Jonathan;
+  background-color: var(--primary-darker-purple);
+}
+.Kira {
+  grid-area: Kira;
+  background-color: var(--primary-darker-purple);
+}
+.Jeanette {
+  grid-area: Jeanette;
+  background-color: var(--primary-darker-purple);
+}
+.Patrick {
+  grid-area: Patrick;
+  background-color: var(--primary-darker-purple);
+}
