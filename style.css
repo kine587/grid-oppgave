@@ -37,7 +37,9 @@ section {
     "Daniel Daniel Jonathan Kira"
     "Jeanette Patrick Patrick Kira";
 }
-
+div {
+  border-radius: 15px;
+}
 p {
   font-family: var(--font-family);
   font-size: var(--font-size);
