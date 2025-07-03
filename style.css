@@ -65,18 +65,18 @@ p {
 }
 .Kira {
   grid-area: Kira;
-  background-color: var(--nutural-white);
+  background-color: var(--nutural-light-grey);
   box-shadow: 4px 4px 5px rgb(0, 0, 0, 0.3);
 }
 .Jeanette {
   grid-area: Jeanette;
-  background-color: var(--nutural-white);
+  background-color: var(--nutural-light-grey);
   box-shadow: 4px 4px 5px rgb(0, 0, 0, 0.3);
 }
 .Patrick {
   grid-area: Patrick;
   background-color: var(--nutural-black);
-  color: var(--nutural-white);
+  color: var(--nutural-light-grey);
   box-shadow: 4px 4px 5px rgb(0, 0, 0, 0.7);
 }
 .parick-image {
@@ -99,4 +99,9 @@ img {
 }
 .column {
   grid-column: auto;
+}
+.intro {
+  font-family: var(--font-family);
+  font-weight: 600;
+  color: var(--nutural-white);
 }
